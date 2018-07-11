@@ -11,7 +11,7 @@ root@master # kubectl run nginx --image=registry.cn-hangzhou.aliyuncs.com/acs/ne
 
 root@master # kubectl expose deploy nginx --name=http-svc --port=80 --target-port=80
 root@master # kubectl expose deploy nginx --name=http-svc1 --port=80 --target-port=80
-root@master # kubectl expose deploy nginx --name=http-svc2 --port=80 --target-port80
+root@master # kubectl expose deploy nginx --name=http-svc2 --port=80 --target-port=80
 root@master # kubectl expose deploy nginx --name=http-svc3 --port=80 --target-port=80
 ```
 
